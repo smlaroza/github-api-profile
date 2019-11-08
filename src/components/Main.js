@@ -1,5 +1,4 @@
 import React from "react"
-import Axios from "axios"
 import { useGithub } from "../redux/ducks/exampleReducer"
 import "../styles/styles.css"
 

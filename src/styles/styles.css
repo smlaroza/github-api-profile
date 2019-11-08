@@ -197,3 +197,41 @@ h1 {
 .fa {
   margin: 2px;
 }
+
+.nextPage {
+  margin: auto;
+  padding-top: 10px;
+}
+
+.prevButton {
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(226, 228, 232);
+  outline: none;
+}
+
+.nextButton {
+  padding: 10px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+  color: blue;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.nextButton:hover {
+  background: blue;
+  color: white;
+}
+
+.foot {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  text-align: Center;
+  border-top: 1px solid rgba(226, 228, 232);
+  width: 900px;
+}

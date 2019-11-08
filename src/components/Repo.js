@@ -1,5 +1,4 @@
 import React from "react"
-import axios from "axios"
 import { useGithub } from "../redux/ducks/exampleReducer"
 import "../styles/styles.css"
 import Moment from "react-moment"
@@ -60,6 +59,27 @@ export default function Main(props) {
           )
         })}
       </div>
+      <div className="nextPage">
+        <button className="prevButton">Previous</button>
+        <button className="nextButton">Next</button>
+      </div>
+      <footer className="foot">
+        <p>&copy;2019 Github, Inc.</p>
+        <p>Terms</p>
+        <p>Privacy</p>
+        <p>Security</p>
+        <p>Status</p>
+        <p>Help</p>
+        {/* <div className="footLogo">
+          <Icon icon="github"></Icon>
+        </div> */}
+        <p>Contact GitHub</p>
+        <p>Pricing</p>
+        <p>API</p>
+        <p>Training</p>
+        <p>Blog</p>
+        <p>About</p>
+      </footer>
     </div>
   )
 }
